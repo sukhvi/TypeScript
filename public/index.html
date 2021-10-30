@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TypeScript</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="app.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>Typescript</header>
+    <section id="logger">
+      <aside>
+        <h1>Financial Logger</h1>
+        <ul id="loggerListing"></ul>
+      </aside>
+      <form id="form">
+        <h1>Log Form</h1>
+
+        <div>
+          <label>Type</label>
+          <select id="paymentType">
+            <option value="Invoice">Invoice</option>
+            <option value="Payment">Payment</option>
+          </select>
+        </div>
+        <div>
+          <label> To/From </label>
+          <input required type="text" id="toFrom" value="" />
+        </div>
+        <div>
+          <label> Details </label>
+          <input required type="text" id="details" value="" />
+        </div>
+        <div>
+          <label> Amount </label>
+          <input required type="number" id="amount" value="" />
+        </div>
+        <button id="button" type="submit">Submit</button>
+      </form>
+    </section>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

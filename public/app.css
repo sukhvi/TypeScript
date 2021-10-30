@@ -1,0 +1,89 @@
+* {
+  font-family: "Comfortaa", cursive;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  padding: 20px 0;
+  height: 73px;
+  box-sizing: border-box;
+  background: #262261;
+  margin-top: 5px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+#logger {
+  display: flex;
+  height: 100vh;
+}
+#logger > * {
+  flex-basis: 50%;
+  padding: 30px;
+  padding-top: 100px;
+  box-sizing: border-box;
+}
+
+#logger h1 {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+#logger aside {
+  background: #faaf40;
+}
+
+#logger aside ul {
+  list-style-type: none;
+  padding-top: 30px;
+}
+
+#logger aside ul li {
+  border: solid 1px #fff;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+
+#logger form {
+  background: #ee4036;
+}
+
+#logger label {
+    padding-bottom: 10px;
+}
+
+#logger form > div {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+
+#logger input,
+select {
+  color: #080808;
+  padding:10px;
+  border:none;
+  border-radius: 5px;
+}
+
+
+#button {
+    padding:10px 15px;
+    border: #fff solid 1px;
+    border-radius: 5px;
+    color:#fff;
+    background: #ee4036;
+    cursor: pointer;
+}
+
+#button:hover {
+    transition: all ease-in-out 1s;
+    transform: scale(1.1,1.1);
+}
